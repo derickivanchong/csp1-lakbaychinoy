@@ -1,0 +1,162 @@
+/*
+ *
+ * CSS Reset
+ *
+ */
+
+ * {
+ 	padding: 0;
+ 	margin: 0;
+ 	box-sizing: border-box;
+ }
+
+/*
+ *
+ * General Rule
+ *
+ */
+
+ .landing-main {
+ 	background-color: #4b907d;
+ 	position: relative;
+ 	background-image: url(../img/batanes2.jpg);
+ 	background-attachment: fixed;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-position: center center;
+ 	z-index: 0;
+ 	height: 100vh;
+ }
+
+ .landing-button {
+ 	letter-spacing: 1px;
+ 	color: #606060;
+ }
+
+ @media only screen and (min-width: 1200px) {
+ 	.landing-image {
+ 		width: 30%;
+ 	}
+
+ 	.landing-name {
+ 		position: relative;
+ 	}
+
+ 	.landing-image {
+ 		position: relative;
+ 		left: 50%;
+ 		transform: translateX(-50%);
+ 		margin-bottom: 15px;
+ 	}
+
+ 	.landing-button {
+ 		position: relative;
+ 		left: 50%;
+ 		transform: translateX(-50%);
+ 		margin-bottom: 15px;
+ 	}
+
+ 	img {
+ 		vertical-align: middle;
+ 		border: 0;
+ 	}
+
+ 	.landing-button {
+ 		text-transform: uppercase;
+ 		padding:15px;
+ 		text-align: center;
+ 		text-decoration: none;
+ 		font-size: 1em;
+ 		transition-duration: 0.4s;
+ 		cursor: pointer;
+ 		background-color: rgba(255, 255, 255, .6);
+ 		border: 2px solid white;
+ 		text-shadow: 1px 1px 6px white;
+ 	}
+
+ }
+
+ @media only screen and (max-width: 991px) and (min-width: 768px) {
+ 	.landing-logo {
+ 		width: 50%;
+ 	}
+ 	.landing-name {
+ 		position: relative;
+ 	}
+
+ 	.landing-image {
+ 		position: relative;
+ 		left: 50%;
+ 		transform: translateX(-50%);
+ 		margin-bottom: 15px;
+ 		margin-top: 100px;
+ 	}
+
+ 	.landing-button {
+ 		position: relative;
+ 		left: 50%;
+ 		transform: translateX(-50%);
+ 		margin-bottom: 15px;
+ 	}
+
+ 	img {
+ 		vertical-align: middle;
+ 		border: 0;
+ 	}
+
+ 	.landing-button {
+ 		text-transform: uppercase;
+ 		padding:15px;
+ 		text-align: center;
+ 		text-decoration: none;
+ 		font-size: 1em;
+ 		transition-duration: 0.4s;
+ 		cursor: pointer;
+ 		background-color: rgba(255, 255, 255, .6);
+ 		border: 2px solid white;
+ 		text-shadow: 1px 1px 6px white;
+ 	}
+ }
+
+ @media only screen and (max-width: 767px) {
+ 	.landing-logo {
+ 		width: 80%;
+ 	}
+
+ 	.landing-name {
+ 		position: relative;
+ 	}
+
+ 	.landing-image {
+ 		position: relative;
+ 		left: 50%;
+ 		transform: translateX(-50%);
+ 		margin-bottom: 15px;
+ 		margin-top: 12px;
+ 	}
+
+ 	.landing-button {
+ 		position: relative;
+ 		left: 50%;
+ 		transform: translateX(-50%);
+ 		margin-bottom: 15px;
+ 	}
+
+ 	img {
+ 		vertical-align: middle;
+ 		border: 0;
+ 	}
+
+ 	.landing-button {
+ 		text-transform: uppercase;
+ 		padding:15px;
+ 		text-align: center;
+ 		text-decoration: none;
+ 		font-size: 1em;
+ 		transition-duration: 0.4s;
+ 		cursor: pointer;
+ 		background-color: rgba(255, 255, 255, .6);
+ 		border: 2px solid white;
+ 		text-shadow: 1px 1px 6px white;
+ 	}
+ }
