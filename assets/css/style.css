@@ -16,10 +16,23 @@
  *
  */
 
- .landing-main {
+ 
+
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+.landingmain {
  	background-color: #4b907d;
  	position: relative;
- 	background-image: url(../img/batanes2.jpg);
+ 	background-image: url(../img/download.jpg);
  	background-attachment: fixed;
  	background-repeat: no-repeat;
  	background-size: cover;
@@ -33,130 +46,110 @@
  	color: #606060;
  }
 
- @media only screen and (min-width: 1200px) {
- 	.landing-image {
- 		width: 30%;
- 	}
-
- 	.landing-name {
- 		position: relative;
- 	}
-
- 	.landing-image {
- 		position: relative;
- 		left: 50%;
- 		transform: translateX(-50%);
- 		margin-bottom: 15px;
- 	}
-
- 	.landing-button {
- 		position: relative;
- 		left: 50%;
- 		transform: translateX(-50%);
- 		margin-bottom: 15px;
- 	}
-
- 	img {
- 		vertical-align: middle;
- 		border: 0;
- 	}
-
- 	.landing-button {
- 		text-transform: uppercase;
- 		padding:15px;
- 		text-align: center;
- 		text-decoration: none;
- 		font-size: 1em;
- 		transition-duration: 0.4s;
- 		cursor: pointer;
- 		background-color: rgba(255, 255, 255, .6);
- 		border: 2px solid white;
- 		text-shadow: 1px 1px 6px white;
- 	}
-
+ #landingButton {
+ 	opacity: 0.3;
  }
 
- @media only screen and (max-width: 991px) and (min-width: 768px) {
- 	.landing-logo {
- 		width: 50%;
- 	}
- 	.landing-name {
- 		position: relative;
- 	}
-
- 	.landing-image {
- 		position: relative;
- 		left: 50%;
- 		transform: translateX(-50%);
- 		margin-bottom: 15px;
- 		margin-top: 100px;
- 	}
-
- 	.landing-button {
- 		position: relative;
- 		left: 50%;
- 		transform: translateX(-50%);
- 		margin-bottom: 15px;
- 	}
-
- 	img {
- 		vertical-align: middle;
- 		border: 0;
- 	}
-
- 	.landing-button {
- 		text-transform: uppercase;
- 		padding:15px;
- 		text-align: center;
- 		text-decoration: none;
- 		font-size: 1em;
- 		transition-duration: 0.4s;
- 		cursor: pointer;
- 		background-color: rgba(255, 255, 255, .6);
- 		border: 2px solid white;
- 		text-shadow: 1px 1px 6px white;
- 	}
+ .cover-heading {
+ 	margin-bottom: 200px;
+ 	margin-top: 250px;
  }
 
- @media only screen and (max-width: 767px) {
- 	.landing-logo {
- 		width: 80%;
- 	}
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
 
- 	.landing-name {
- 		position: relative;
- 	}
 
- 	.landing-image {
- 		position: relative;
- 		left: 50%;
- 		transform: translateX(-50%);
- 		margin-bottom: 15px;
- 		margin-top: 12px;
- 	}
+/*
+ * Base structure
+ */
 
- 	.landing-button {
- 		position: relative;
- 		left: 50%;
- 		transform: translateX(-50%);
- 		margin-bottom: 15px;
- 	}
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
 
- 	img {
- 		vertical-align: middle;
- 		border: 0;
- 	}
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
 
- 	.landing-button {
- 		text-transform: uppercase;
- 		padding:15px;
- 		text-align: center;
- 		text-decoration: none;
- 		font-size: 1em;
- 		transition-duration: 0.4s;
- 		cursor: pointer;
- 		background-color: rgba(255, 255, 255, .6);
- 		border: 2px solid white;
- 		text-shadow: 1px 1px 6px white;
- 	}
- }
+.cover-container {
+  max-width: 42em;
+}
+
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
+
+
+
