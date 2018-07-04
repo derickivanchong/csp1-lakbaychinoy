@@ -119,3 +119,19 @@ footer p {
 }
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+/*
+ * Destinations
+ */
+
+.destinationimage {
+	background-image: url(../img/malapascua.jpg);
+	z-index: 0;
+	background-size: cover;
+	background-position: center center;
+}
+
+.card-img-right {
+	height: 250px;
+	/*width: 200px;*/
+}
