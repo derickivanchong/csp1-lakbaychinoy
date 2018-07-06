@@ -17,7 +17,7 @@
  .landingmain {
   background-color: #4b907d;
   position: relative;
-  background-image: url(../img/malapascua.jpg);
+  background-image: url(../img/santorini.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,9 +35,15 @@
   opacity: 0.3;
  }*/
 
- .cover-heading {
-  margin-bottom: 150px;
-  margin-top: 350px;
+ .cover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+
+ .leadlanding {
+  padding-top: 80px;
  }
 
 /*
@@ -48,7 +54,7 @@
 }
 
 /*
- * Home Page
+ * Gallery Page
  */
 
  #navgallery {
