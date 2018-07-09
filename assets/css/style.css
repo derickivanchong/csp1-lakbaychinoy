@@ -8,7 +8,15 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
- }
+}
+
+/*
+ * World
+ */
+
+p {
+  font-family: 'Playfair Display', serif;
+}
 
 /*
  * Landing Page
@@ -24,7 +32,7 @@
   background-position: center center;
   z-index: 0;
   height: 100vh;
- }
+}
 
 /* .landing-button {
   letter-spacing: 1px;
@@ -33,23 +41,23 @@
 
  #landingButton {
   opacity: 0.3;
- }*/
+  }*/
 
- .cover {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
- }
+  .cover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
- .leadlanding {
-  padding-top: 80px;
- }
+  .leadlanding {
+    padding-top: 80px;
+  }
 
 /*
  * Footer
  */
-.mastfoot {
+ .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
 
@@ -59,27 +67,27 @@
 
  #navgallery {
   opacity: 1;
- }
+}
 
- .navbar {
- 	opacity: 0.3;
- }
+.navbar {
+  opacity: 0.3;
+}
 
- div.carousel-inner > div.carousel-item > img {
+div.carousel-inner > div.carousel-item > img {
   height: 100vh;
- }
+}
 
- .card-columns {
+.card-columns {
   margin-left: 10px;
   margin-right: 10px;
- }
+}
 
- .navbar {
-    -webkit-transition: all 0.6s ease-out;
-    -moz-transition: all 0.6s ease-out;
-    -o-transition: all 0.6s ease-out;
-    -ms-transition: all 0.6s ease-out;
-    transition: all 0.6s ease-out;
+.navbar {
+  -webkit-transition: all 0.6s ease-out;
+  -moz-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  -ms-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
 }
 
 .navbar.scrolled {
@@ -103,7 +111,7 @@ h5 {
  	margin-top: 56px;
  }
 
-.jumbotron p:last-child {
+ .jumbotron p:last-child {
   margin-bottom: 0;
 }
 
@@ -130,14 +138,29 @@ footer p {
  * Destinations
  */
 
-.destinationimage {
-	background-image: url(../img/malapascua.jpg);
-	z-index: 0;
-	background-size: cover;
-	background-position: center center;
-}
+ .destinationimage {
+   background-image: url(../img/malapascua.jpg);
+   z-index: 0;
+   background-size: cover;
+   background-position: center center;
+ }
 
-.card-img-right {
-	height: 250px;
-	/*width: 200px;*/
-}
+ .card-img-right {
+   height: 250px;
+   /*width: 200px;*/
+ }
+
+ .taipeiimage {
+  background-image: url(../img/taipei.jpg);
+  z-index: 0;
+  background-size: cover;
+  background-position: center center;
+  height: 70vh;
+ }
+ .sidebartaipei {
+  height: 30vh;
+ }
+
+/*font-family: 'Coda Caption', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Shrikhand', cursive;*/
